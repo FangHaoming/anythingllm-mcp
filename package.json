@@ -1,0 +1,18 @@
+{
+  "name": "anythingllm-personal-knowledge-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MCP bridge between Codex and an AnythingLLM workspace",
+  "type": "module",
+  "bin": {
+    "anythingllm-personal-knowledge-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.0"
+  }
+}
