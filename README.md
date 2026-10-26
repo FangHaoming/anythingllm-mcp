@@ -38,7 +38,7 @@ ANYTHINGLLM_API_KEY=... ANYTHINGLLM_WORKSPACE=... npm start
   "mcpServers": {
     "anythingllm-personal-knowledge": {
       "command": "node",
-      "args": ["/绝对路径/anythingllm-personal-knowledge-mcp/src/index.js"],
+      "args": ["/绝对路径/anythingllm-mcp/src/index.js"],
       "env": {
         "ANYTHINGLLM_BASE_URL": "http://localhost:3001",
         "ANYTHINGLLM_API_KEY": "你的-Developer-API-Key",
